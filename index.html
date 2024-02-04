@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mercedescar</title>
+    <link rel="stylesheet" href="car.css">
+
+</head>
+
+
+<style>
+    * {
+        padding: 0%;
+        margin: 0%;
+
+    }
+
+    ul {
+        display: flex;
+        background-color: black;
+        color: aliceblue;
+        text-decoration: none;
+        list-style: none;
+
+    }
+
+    li {
+        padding: 1%;
+        text-decoration: none;
+
+    }
+
+
+
+
+
+
+    li a {
+
+        color: rgb(253, 253, 253);
+        text-decoration: none;
+        font-size: 15px;
+
+        padding: 35px;
+
+
+    }
+
+    .hd {
+        border-top: solid 1px rgb(247, 236, 236);
+    }
+
+
+
+
+
+
+
+    .onecar {
+        padding-left: 0px;
+
+
+    }
+
+
+    .twocar {
+        padding-left: 52%;
+        margin-top: -32%;
+
+    }
+
+
+
+    .threecar {
+        margin-top: -39%;
+        margin-left: 24%;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: larger;
+        color: rgb(131, 101, 101);
+
+
+    }
+
+    :hover.heading {
+        color: rgb(0, 0, 0);
+    }
+
+    #remove {
+        text-decoration: none;
+
+
+    }
+
+
+
+
+    .mcar {
+        width: 310px;
+        height: 320px;
+        border: solid black 3px;
+        position: absolute;
+        margin-left: 25%;
+
+    }
+
+    .glsone {
+        font-size: 25px;
+        margin-top: 10%;
+        color: rgb(253, 242, 242);
+        background-color: rgb(16, 15, 15);
+        text-align: center;
+        padding-top: 4%;
+    }
+
+
+    .firstm {
+
+        margin-top: 5%;
+
+    }
+
+
+
+
+    .mscar {
+        position: absolute;
+        width: 310px;
+        height: 320px;
+        border: solid black 3px;
+        margin-left: 55%;
+        margin-top: 0%;
+
+
+    }
+
+
+    .ms_cars {
+        font-size: 25px;
+        margin-top: 20%;
+        color: rgb(253, 242, 242);
+        background-color: rgb(16, 15, 15);
+        text-align: center;
+        padding-top: 7%;
+
+    }
+
+    .mmcars {
+
+        margin-top: 9%;
+        margin-left: 5%;
+    }
+
+
+
+
+
+
+
+
+
+    .three {
+        position: absolute;
+        border: 3px solid black;
+        width: 310px;
+        height: 320px;
+        margin-left: 7%;
+        margin-top: 25%;
+
+
+
+    }
+
+    .threephoto {
+        margin-right: 5%;
+        margin-top: 9%;
+    }
+
+    .threetext {
+        color: aliceblue;
+        background-color: black;
+        font-size: 25px;
+        margin-top: 20%;
+        text-align: center;
+        padding-top: 7%;
+
+    }
+
+
+
+
+    .four {
+        position: absolute;
+        border: 3px solid black;
+        width: 310px;
+        height: 320px;
+        margin-left: 40%;
+        margin-top: 25%;
+
+
+
+    }
+
+    .fourphoto {
+        margin-left: 5%;
+        margin-top: 9%;
+    }
+
+    .fourtext {
+        color: aliceblue;
+        background-color: black;
+        font-size: 25px;
+        margin-top: 20%;
+        text-align: center;
+        padding-top: 7%;
+
+    }
+
+
+
+    .five {
+        position: absolute;
+        border: 3px solid black;
+        width: 309px;
+        height: 320px;
+        margin-left: 71%;
+        margin-top: 25%;
+
+
+
+    }
+
+    .fivephoto {
+
+        margin-top: 9%;
+    }
+
+    .fivetext {
+        color: aliceblue;
+        background-color: black;
+        font-size: 25px;
+        margin-top: 0%;
+        text-align: center;
+        padding-top: 13%;
+        position: relative;
+
+
+    }
+
+
+
+
+
+
+    .six {
+        position: absolute;
+        border: 3px solid black;
+        width: 310px;
+        height: 320px;
+        margin-left: 2%;
+        margin-top: 25%;
+
+
+
+    }
+
+    .sixphoto {
+        margin-left: 5%;
+        margin-top: 9%;
+    }
+
+    .sixtext {
+        color: aliceblue;
+        background-color: black;
+        font-size: 27px;
+        margin-top: 0%;
+        text-align: center;
+        padding-top: 2%;
+
+    }
+
+
+
+
+
+    .seven {
+        position: absolute;
+        width: 310px;
+        height: 320px;
+        border: solid black 3px;
+        margin-right: 85%;
+        margin-top: 25%;
+        right: 724px;
+
+
+    }
+
+    .sevenphoto {
+
+        margin-top: 9%;
+    }
+
+    .seventext {
+        color: aliceblue;
+        background-color: black;
+        font-size: 27px;
+        margin-top: 0%;
+        text-align: center;
+        padding-top: 12%;
+
+    }
+
+
+
+
+
+
+
+    .eight {
+        position: absolute;
+        border: 3px solid black;
+        width: 310px;
+        height: 320px;
+        right: 489px;
+        margin-top: 25%;
+
+
+
+    }
+
+    .eightphoto {
+
+        margin-top: 9%;
+    }
+
+    .eighttext {
+        color: aliceblue;
+        background-color: black;
+        font-size: 27px;
+        margin-top: 0%;
+        text-align: center;
+        padding-top: 12%;
+
+    }
+
+
+    .nine {
+        position: absolute;
+        border: 3px solid black;
+        width: 310px;
+        height: 320px;
+        margin-left: 2%;
+        margin-top: 489px;
+
+
+
+    }
+
+    .ninephoto {
+
+        margin-top: 9%;
+    }
+
+    .ninetext {
+        color: aliceblue;
+        background-color: black;
+        font-size: 27px;
+        margin-bottom: 0%;
+        text-align: center;
+        padding-bottom: 9%;
+        padding-top: 10%;
+    }
+
+
+
+
+
+    .ten {
+        position: absolute;
+        border: 3px solid black;
+        width: 310px;
+        height: 320px;
+        right: 490px;
+        margin-top: 489px;
+
+
+    }
+
+    .tenphoto {
+
+        margin-top: 9%;
+    }
+
+    .tentext {
+        color: aliceblue;
+        background-color: black;
+        font-size: 27px;
+        margin-top: 0%;
+        text-align: center;
+        padding-top: 9%;
+
+    }
+
+
+
+
+
+
+
+    .eleven {
+        position: absolute;
+        border: 3px solid black;
+        width: 310px;
+        height: 320px;
+        right: 989px;
+        margin-top: 489px;
+
+
+    }
+
+    .elevenphoto {
+
+        margin-top: 9%;
+    }
+
+    .eleventext {
+        color: aliceblue;
+        background-color: black;
+        font-size: 27px;
+        margin-top: 0%;
+        text-align: center;
+        padding-top: 9%;
+        position: absolute;
+
+    }
+
+
+    .mcar:hover img {
+        transform: scale(1.1);
+
+    }
+
+    .mscar:hover img {
+        transform: scale(1.1);
+    }
+
+
+
+    .three:hover img {
+        transform: scale(1.1);
+    }
+
+
+    .four:hover img {
+        transform: scale(1.1);
+    }
+
+    .fivephoto:hover img {
+        transform: scale(1.1);
+    }
+
+    .sixphoto:hover img {
+        transform: scale(1.1);
+    }
+
+    .sevenphoto:hover img {
+        transform: scale(1.1);
+    }
+
+    .eightphoto:hover img {
+        transform: scale(1.1);
+    }
+
+    .ninephoto:hover img {
+        transform: scale(1.1);
+    }
+
+    .tenphoto:hover img {
+        transform: scale(1.1);
+    }
+
+    .elevenphoto:hover img {
+        transform: scale(1.1);
+    }
+
+    .falog {
+
+        position: absolute;
+        margin-top: 110%;
+
+    }
+
+    .falo.img {
+        position: absolute;
+
+
+    }
+
+    .fn {
+        position: absolute;
+        color: rgb(221, 230, 238);
+
+        font-family: cursive;
+
+    }
+
+    .falog {
+        width: 100%;
+        height: 35%;
+        background-color: rgb(49, 56, 56);
+
+        position: absolute;
+    }
+
+    .llll {
+        margin-left: 80%;
+
+
+    }
+
+    .more {
+        position: absolute;
+        font-size: medium;
+        color: aliceblue;
+        margin-left: 85%;
+
+    }
+
+    .pa {
+
+        color: rgb(177, 188, 196);
+        margin-left: 0%;
+
+    }
+</style>
+
+<body>
+
+
+
+
+
+    <div class="head">
+
+        <img src="logo..png" width="80px" height="70px">
+
+
+        <h1> Mercedes-Benz</h1>
+    </div>
+
+    <div class="hd">
+
+
+
+        <ul>
+
+            <li>
+                <a href="C:\mercedescar.html\Home.html" target="_blank">Home </a>
+            </li>
+
+            <li>
+                <a href="C:\mercedescar.html\payment.html" target="_blank"> payment </a>
+            </li>
+
+
+
+            <li>
+                <a href="C:\mercedescar.html\about.html" target="_blank"> About us </a>
+            </li>
+
+
+
+            <li>
+                <a href="C:\mercedescar.html\contact.html" target="_blank">Contact us </a>
+            </li>
+
+        </ul>
+
+
+    </div>
+
+
+
+
+
+
+    <div class="meancar">
+
+
+
+        <div class="onecar">
+
+            <img src="meain.mm.jpg"
+                width="600px" height="550px">
+
+        </div>
+
+
+
+
+        <div class="twocar">
+            <img src="two.png"
+                width="670px" height="530px">
+        </div>
+
+
+        <div class="threecar">
+            <img src="thirds.png" width="700px"
+                height="600px">
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div class="heading">
+        <h1> WELCOME TO MERCEDES-BENZ </h1>
+    </div>
+
+
+
+
+
+    <div class="mcar">
+
+        <div class="firstm">
+
+            <img src="first.jpg"
+                width="300px" height="200px">
+
+
+        </div>
+        <div class="glsone">
+
+            <a id="remove" href="C:\mercedescar.html\glsone.html" target="_blank">
+                <font color="aliceblue">Mercedes-Maybach GLS 600 4MATIC</font>
+            </a>
+
+        </div>
+
+
+    </div>
+    </div>
+
+
+
+    <div class="mscar">
+
+
+        <div class="mmcars">
+
+
+            <img src="Secmmcars.jpg"
+                width="270px" height="150px">
+
+        </div>
+
+        <div class="ms_cars">
+
+            <a id="remove" href="C:\mercedescar.html\mscars.html" target="_blank">
+                <font color="aliceblue"> Mercedes-Benz Maybach S 580 </font>
+            </a>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <div class="three">
+
+
+        <div class="threephoto">
+
+
+            <img src="three.png"
+                width="290px" height="150px">
+
+        </div>
+
+        <div class="threetext">
+
+            <a id="remove" href="C:\mercedescar.html\threecar.html" target="_blank">
+                <font color="aliceblue">Mercedes AMG Sport Superfast </font>
+            </a>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="four">
+
+
+        <div class="fourphoto">
+
+
+            <img src="four.png"
+                width="290px" height="150px">
+
+        </div>
+
+        <div class="fourtext">
+
+            <a id="remove" href=C:\mercedescar.html\four.html target="_blank">
+                <font color="aliceblue"> Mercedes-Benz AMG SL63 Car </font>
+            </a>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="five">
+
+
+        <div class="fivephoto">
+
+            <img src="five..png"
+                width="280px" height="220px">
+        </div>
+
+
+        <div class=" fivetext">
+
+          
+
+            <a id="remove" href="C:\mercedescar.html\five.html" target="_blank">
+                <font color="aliceblue">Mercedes Benz E-Class Car</font>
+
+            </a>
+
+            <div class="six">
+
+
+                <div class="sixphoto">
+                    <img src="six.png"
+                        width="280px" height="220px">
+                </div>
+
+
+                <div class=" sixtext">
+                    <a id="remove" href="C:\mercedescar.html\six.html" target="_blank">
+                    <font color="aliceblue">Minivan Mercedes Linea Azzurra - Mercedes Benz</font>
+
+                </a>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="seven">
+
+
+                <div class="sevenphoto">
+                    <img src="seven.png"
+                        width="270px" height="220px">
+                </div>
+
+
+                <div class=" seventext">
+                    <a id="remove" href="C:\mercedescar.html\seven.html" target="_blank">
+                    <font color="aliceblue"> Mercedes usa minivan</font>
+
+                </a>
+                </div>
+
+            </div>
+
+
+            <div class="eight">
+
+
+                <div class="eightphoto">
+                    <img src="eight.png" width="270px" height="220px">
+                </div>
+
+
+                <div class=" eighttext">
+                    <a id="remove" href="C:\mercedescar.html\eight.html" target="_blank">
+                    <font color="aliceblue"> Mercedes G class</font>
+
+                </a>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="nine">
+
+
+                <div class="ninephoto">
+                    <img src="nine.png"
+                        width="280px" height="200px">
+                </div>
+
+
+                <div class=" ninetext">
+                    <a id="remove" href="C:\mercedescar.html\nine.html" target="_blank">
+                    <font color="aliceblue"> Mercedes Benz suv </font>
+
+                </a>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="ten">
+
+
+                <div class="tenphoto">
+                    <img src="ten.png"
+                        width="280px" height="200px">
+                </div>
+
+
+                <div class=" tentext">
+                    <a id="remove" href="C:\mercedescar.html\ten.html" target="_blank">
+                    <font color="aliceblue"> Mercedes Benz Maybach600 </font>
+
+                </a>
+                </div>
+
+            </div>
+
+
+            <div class="eleven">
+
+
+                <div class="elevenphoto">
+                    <img src="eleven.png"
+                        width="280px" height="200px">
+                </div>
+
+
+                <div class=" eleventext">
+                    <a id="remove" href="C:\mercedescar.html\eleven.html" target="_blank">
+                    <font color="aliceblue"> Mercedes Benz Amg version </font>
+
+                </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <footer>
+
+
+        <div class="falog">
+
+            <img src="logo..png" width="120px" height="100px">
+            <p class="fn">Mercedes Benz</p>
+
+
+
+            <div class="llll">
+
+                <img src="twitter..png" width="50px" height="50px">
+                <img src="insta..png" width="50px" height="50px">
+                <img src="facebook..png" width="50px" height="50px">
+                <img src="whatsapp..png" width="50px" height="50px">
+            </div>
+
+            <p class="more">For more info</p>
+            <p class="pa">Mercedes-Benz India Pvt.Ltd. All Rights Reserved(provider)</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
